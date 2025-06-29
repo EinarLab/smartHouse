@@ -994,7 +994,14 @@ footer {
   }
 
   .possibilities__description_item {
+
+    width: 100%;
+
     border-radius: 1rem;
+  }
+
+  .possibilities__description_item:last-child {
+    display: none;
   }
 
   .description__text_item {
@@ -1002,7 +1009,7 @@ footer {
     display: flex;
     align-items: center;
 
-    font-size: .75rem;
+    font-size: .85rem;
   }
 
   .description__img_item {
