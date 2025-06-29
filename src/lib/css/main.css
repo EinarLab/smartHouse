@@ -109,6 +109,12 @@ nav {
   border-radius: 0px 0px 15px 15px;
 }
 
+.nav-right  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .nav-left {
   max-width: 50%;
   height: auto;
@@ -874,4 +880,82 @@ footer {
   font-size: 1.25vw;
   font-weight: bold;
   color: var(--text-color);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .section__title {
+    font-size: 5vw;
+  }
+
+  .section__subtext {
+    font-size: 2vw;
+  }
+
+  nav {
+    height: 6vw;
+  }
+
+  .company__name {
+    font-size: 2vw;
+  }
+
+  .nav__button {
+    font-size: 1.5vw;
+  }
+
+  .banner {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .banner-left {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner__title {
+    font-size: 6vw;
+  }
+
+  .banner__subtext {
+    font-size: 2.3vw;
+  }
+
+  .banner-right {
+    display: none;
+  }
+
+  .possibilities {
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .description__text_item {
+    font-size: 1.3vw;
+  }
+
+  .categories__container {
+    gap: 6vw;
+  }
+
+  .container__item_img {
+    width: 6vw;
+    height: 6vw;
+  }
+
+  .categories__item_img {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+
+  .categories__item_text {
+    font-size: 2vw;
+  }
 }

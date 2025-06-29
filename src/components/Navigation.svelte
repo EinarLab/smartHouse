@@ -14,7 +14,8 @@
     <button class="nav__button" on:click={() => smoothScrollToHeading("heading1")}>О компании</button>
     <button class="nav__button" on:click={() => smoothScrollToHeading("heading2")}>Области работы</button>
     <button class="nav__button" on:click={() => smoothScrollToHeading("heading3")}>Услуги</button>
-    <button class="nav__button" on:click={() => smoothScrollToHeading("heading4")}>Отзывы</button>
-    <button class="nav__button" on:click={() => smoothScrollToHeading("heading5")}>Контакты</button>
+    <button class="nav__button" on:click={() => smoothScrollToHeading("heading4")}>Проекты</button>
+    <button class="nav__button" on:click={() => smoothScrollToHeading("heading5")}>Отзывы</button>
+    <button class="nav__button" on:click={() => smoothScrollToHeading("heading6")}>Контакты</button>
     </div>
 </nav>

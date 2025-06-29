@@ -4,7 +4,7 @@
 
 <section class="contacts">
     <section class="contacts__info">
-    <h1 id="heading5" class="section__title services__section_title animated">
+    <h1 id="heading6" class="section__title services__section_title animated">
         Есть проект? 
         <span class="section__title_allocation">
         Оставьте заявку и<br />

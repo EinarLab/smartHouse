@@ -48,7 +48,7 @@
 
 <section class="projects">
     <section class="projects__info">
-         <h1 id="heading3" class="section__title services__section_title animated">Проекты</h1>
+         <h1 id="heading4" class="section__title services__section_title animated">Проекты</h1>
     </section>
 
 
