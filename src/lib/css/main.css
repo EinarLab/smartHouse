@@ -1022,17 +1022,17 @@ footer {
   }
 
   .container__item_img {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
   }
 
   .categories__item_img {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.45rem;
+    height: 1.45rem;
   }
 
   .categories__item_text {
-    font-size: .85rem;
+    font-size: .75rem;
   }
 
   .services__item_container {
