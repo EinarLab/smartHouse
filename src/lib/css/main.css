@@ -1062,7 +1062,9 @@ footer {
   }
 
   .feedback__item {
-    width: 80vw;
+    padding: 1rem 1rem 1rem 1rem;
+
+    width: 32rem;
     height: auto;
   }
 
@@ -1097,7 +1099,9 @@ footer {
   }
 
   .feedback__item_second {
-    width: 80vw;
+    padding: 1rem 1rem 1rem 1rem;
+
+    width: 32rem;
     height: auto;
 
     display: flex;
@@ -1131,7 +1135,7 @@ footer {
 
     width: 10rem;
     height: 2.5rem;
-    font-size: 1rem;
+    font-size: .75rem;
   }
 
   .contacts__feedback_button {
