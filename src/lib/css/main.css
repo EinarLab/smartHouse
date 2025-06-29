@@ -895,6 +895,10 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
+  #wrapper {
+    overflow: hidden;
+  }  
+
   .scroll-top {
     width: 2rem;
     height: 2rem;
@@ -916,7 +920,7 @@ footer {
   }
 
   nav {
-    height: 10vw;
+    height: 4rem;
   }
 
 
@@ -974,9 +978,14 @@ footer {
     justify-content: center;
   }
 
+  .possibilities__categories {
+      width: 100%;
+      flex-wrap: wrap;
+  }
+
   .possibilities__categories_item {
-    width: 20vw;
-    height: 7vw;
+    width: 10rem;
+    height: 3rem;
     font-size: .7rem;
   }
 
