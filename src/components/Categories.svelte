@@ -30,120 +30,126 @@
     </p>
     </section>
 
-    <div class="categories__container">
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img  class="categories__item_img" src="{categImgPrivateHouse}" alt="image">
+    <section class="categories__containers">
+        <div class="categories__container">
+        <div class="categories__container_item animated">
+            <div class="container__item_img">
+            <img  class="categories__item_img" src="{categImgPrivateHouse}" alt="image">
+            </div>
+            <p class="categories__item_text">
+            Частные дома
+            </p>
         </div>
-        <p class="categories__item_text">
-        Частные дома
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgEducation}" alt="image">
+        <div class="categories__container_item animated">
+            <div class="container__item_img">
+            <img class="categories__item_img" src="{categImgEducation}" alt="image">
+            </div>
+            <p class="categories__item_text">
+            Образование
+            </p>
         </div>
-        <p class="categories__item_text">
-        Образование
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgProduction}" alt="image">
+        <div class="categories__container_item animated">
+            <div class="container__item_img">
+            <img class="categories__item_img" src="{categImgProduction}" alt="image">
+            </div>
+            <p class="categories__item_text">
+            Производство
+            </p>
         </div>
-        <p class="categories__item_text">
-        Производство
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgAgriculture}" alt="image">
+        <div class="categories__container_item animated">
+            <div class="container__item_img">
+            <img class="categories__item_img" src="{categImgAgriculture}" alt="image">
+            </div>
+            <p class="categories__item_text">
+            Сельское хозяйство
+            </p>
         </div>
-        <p class="categories__item_text">
-        Сельское хозяйство
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgHealthcare}" alt="image">
+        <div class="categories__container_item animated">
+            <div class="container__item_img">
+            <img class="categories__item_img" src="{categImgHealthcare}" alt="image">
+            </div>
+            <p class="categories__item_text">
+            здравоохранение
+            </p>
         </div>
-        <p class="categories__item_text">
-        здравоохранение
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgMarketing}" alt="image">
+        <div class="categories__container_item animated">
+            <div class="container__item_img">
+            <img class="categories__item_img" src="{categImgMarketing}" alt="image">
+            </div>
+            <p class="categories__item_text">
+            Маркетинг
+            </p>
         </div>
-        <p class="categories__item_text">
-        Маркетинг
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgLogistics}" alt="image">
+        <div class="categories__container_item animated">
+            <div class="container__item_img">
+            <img class="categories__item_img" src="{categImgLogistics}" alt="image">
+            </div>
+            <p class="categories__item_text">
+            Транспорт и логистика
+            </p>
         </div>
-        <p class="categories__item_text">
-        Транспорт и логистика
-        </p>
-    </div>
-    </div>
+        </div>
 
-    <div class="categories__container">
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgApartment}" alt="image">
+        <div class="categories__container">
+            <div class="categories__container_item animated">
+                <div class="container__item_img">
+                <img class="categories__item_img" src="{categImgApartment}" alt="image">
+                </div>
+                <p class="categories__item_text">
+                Квартиры
+                </p>
+            </div>
+            <div class="categories__container_item animated">
+                <div class="container__item_img">
+                <img class="categories__item_img" src="{categImgScience}" alt="image">
+                </div>
+                <p class="categories__item_text">
+                Наука
+                </p>
+            </div>
+            <div class="categories__container_item animated">
+                <div class="container__item_img">
+                <img class="categories__item_img" src="{categImgConstruction}" alt="image">
+                </div>
+                <p class="categories__item_text">
+                Строительство
+                </p>
+            </div>
+            <div class="categories__container_item animated">
+                <div class="container__item_img">
+                <img class="categories__item_img" src="{categImgEnergy}" alt="image">
+                </div>
+                <p class="categories__item_text">
+                Энергетика
+                </p>
+            </div>
+            <div class="categories__container_item animated">
+                <div class="container__item_img">
+                <img class="categories__item_img" src="{categImgFinance}" alt="image">
+                </div>
+                <p class="categories__item_text">
+                Финансы
+                </p>
+            </div>
+            <div class="categories__container_item animated">
+                <div class="container__item_img">
+                <img class="categories__item_img" src="{categImgHotel}" alt="image">
+                </div>
+                <p class="categories__item_text">
+                Гостиничный бизнес
+                </p>
+            </div>
+
+            <div class="categories__container_item animated">
+                <div class="container__item_img">
+                <img class="categories__item_img" src="{categImgRetail}" alt="image">
+                </div>
+                <p class="categories__item_text">
+                Розничная торговля
+                </p>
+            </div>
         </div>
-        <p class="categories__item_text">
-        Квартиры
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgScience}" alt="image">
-        </div>
-        <p class="categories__item_text">
-        Наука
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgConstruction}" alt="image">
-        </div>
-        <p class="categories__item_text">
-        Строительство
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgEnergy}" alt="image">
-        </div>
-        <p class="categories__item_text">
-        Энергетика
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgFinance}" alt="image">
-        </div>
-        <p class="categories__item_text">
-        Финансы
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgHotel}" alt="image">
-        </div>
-        <p class="categories__item_text">
-        Гостиничный бизнес
-        </p>
-    </div>
-    <div class="categories__container_item animated">
-        <div class="container__item_img">
-        <img class="categories__item_img" src="{categImgRetail}" alt="image">
-        </div>
-        <p class="categories__item_text">
-        Розничная торговля
-        </p>
-    </div>
+    </section>
+
+
 </section>
