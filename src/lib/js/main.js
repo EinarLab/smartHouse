@@ -53,6 +53,7 @@ export function SwitchTheme() {
     }
 
     colorTheme = "dark";
+    alert("Вы разбили нашу лампочку");
     return colorTheme;
   }
   if (colorTheme == "dark") {
@@ -69,6 +70,8 @@ export function SwitchTheme() {
     }
 
     colorTheme = "white";
+
+    alert("Мы заменили лампочку на новую");
     return colorTheme;
   }
 }
