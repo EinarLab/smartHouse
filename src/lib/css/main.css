@@ -896,8 +896,8 @@ footer {
 @media only screen and (max-width: 600px) {
 
   .scroll-top {
-    width: 5vw;
-    height: 5vw;
+    width: 2rem;
+    height: 2rem;
     font-size: 1rem;
   }
 
@@ -1054,7 +1054,7 @@ footer {
 
   .feedback__item {
     width: 80vw;
-    height: 30vw;
+    height: auto;
   }
 
   .feedback__item_header {
@@ -1089,7 +1089,7 @@ footer {
 
   .feedback__item_second {
     width: 80vw;
-    height: 30vw;
+    height: auto;
 
     display: flex;
     flex-direction: column;
@@ -1112,17 +1112,34 @@ footer {
   }
 
   .user__input_label {
+    margin-bottom: 1rem;
+
     font-size: 1rem;
   }
 
   .user__input {
-    width: 40vw;
-    height: 5vw;
+    padding-left: 1rem;
+
+    width: 15rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+
+  .contacts__feedback_button {
+    margin-bottom: .1rem;
+
+    width: 2rem;
+    height: 2rem;
+
     font-size: 1rem;
   }
 
   footer {
-    height: 10vw;
+    height: 4rem;
+  }
+
+  .footer__company_name {
+    font-size: .6rem;
   }
 
   .footer__logo {
@@ -1140,6 +1157,6 @@ footer {
   }
 
   .footer__phone {
-    font-size: .7rem;
+    font-size: .6rem;
   }
 }
