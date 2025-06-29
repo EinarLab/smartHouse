@@ -1027,12 +1027,12 @@ footer {
   }
 
   .categories__item_img {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .categories__item_text {
-    font-size: 1rem;
+    font-size: .85rem;
   }
 
   .services__item_container {
