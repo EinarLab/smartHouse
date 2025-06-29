@@ -1017,13 +1017,13 @@ footer {
   }
 
   .container__item_img {
-    width: 6vw;
-    height: 6vw;
+    width: 4rem;
+    height: 4rem;
   }
 
   .categories__item_img {
-    width: 3.5vw;
-    height: 3.5vw;
+    width: 2rem;
+    height: 2rem;
   }
 
   .categories__item_text {
@@ -1064,7 +1064,7 @@ footer {
   .feedback__item {
     padding: 1rem 1rem 1rem 1rem;
 
-    width: 32rem;
+    width: 28rem;
     height: auto;
   }
 
@@ -1101,7 +1101,7 @@ footer {
   .feedback__item_second {
     padding: 1rem 1rem 1rem 1rem;
 
-    width: 32rem;
+    width: 28rem;
     height: auto;
 
     display: flex;
