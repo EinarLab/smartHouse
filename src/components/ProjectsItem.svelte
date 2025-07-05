@@ -154,5 +154,13 @@
 
             font-size: 1.5rem;
         }
+
+        .project__item:hover .project__item_logo-wrapper::before {
+            pointer-events: none;
+        }
+
+        .project__item:hover .project__item_name {
+            pointer-events: none;
+        }
     }
 </style>
