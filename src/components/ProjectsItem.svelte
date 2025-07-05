@@ -113,7 +113,8 @@
         }
 
         .project__item:hover {
-            pointer-events: none;
+            width: 83vw;
+            pointer-events: auto;
         }
 
         .project__item:hover .project__item_number {
