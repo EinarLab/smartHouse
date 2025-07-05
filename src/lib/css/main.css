@@ -529,6 +529,16 @@ main {
     margin-bottom: 0;
 }
 
+.services__item_content {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 2.5vw;
+}
+
 .services__item_container {
     width: 100%;
     height: auto;
@@ -1015,7 +1025,7 @@ footer {
         display: flex;
         flex-direction: column;
 
-        gap: 10vw;
+        gap: 3.5rem;
     }
 
     .services__item_content {
@@ -1027,7 +1037,7 @@ footer {
         align-items: center;
         justify-content: center;
 
-        gap: 10vw;
+        gap: 3.5rem;
     }
 
     .projects__item_container {
@@ -1049,7 +1059,7 @@ footer {
     .feedback__item {
         padding: 1rem 1rem 1rem 1rem;
 
-        width: 25rem;
+        width: 33.5rem;
         height: auto;
     }
 
@@ -1086,7 +1096,7 @@ footer {
     .feedback__item_second {
         padding: 1rem 1rem 1rem 1rem;
 
-        width: 25rem;
+        width: 33.5rem;
         height: auto;
 
         display: flex;
