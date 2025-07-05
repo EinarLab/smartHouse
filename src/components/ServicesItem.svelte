@@ -5,6 +5,8 @@
     export let img;
     export let text;
 
+    const test = ["1", "2", "3"];
+
     let flipped = false;
 
     function toggleFlip() {
@@ -18,7 +20,20 @@
             <img class="services__item_img" src={img} alt="images" />
             <p class="services__item_text">{text}</p>
         </div>
-        <div class="services__item_inner-back">Обратная сторона</div>
+        <div class="services__item_inner-back">
+            <ul class="services__item_inner-back--container">
+                <h3 class="services__item_inner-back--header">
+                    Что входит в услугу:
+                </h3>
+                {#each test as item}
+                    <li class="services__item_inner-back--container">
+                        <p class="services__item_inner-back--container_text">
+                            {item}
+                        </p>
+                    </li>
+                {/each}
+            </ul>
+        </div>
     </div>
 </div>
 
@@ -41,12 +56,14 @@
         border-radius: 20px;
         transition: 0.2s;
 
-        cursor: pointer;
+        overflow: hidden;
     }
 
     .services__item:hover {
         transform: scale(1.02);
         box-shadow: 0 0 10px 5px var(--accent-color);
+
+        cursor: pointer;
     }
 
     .services__item_inner {
@@ -81,6 +98,9 @@
 
     /* Лицевая сторона */
     .services__item_inner-front {
+        width: 100%;
+        height: 100%;
+
         background: var(--secondary-color);
         display: flex;
         flex-direction: column;
@@ -112,6 +132,16 @@
         pointer-events: none;
     }
 
+    .services__item_inner-back--container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .services__item_inner-back--header {
+        font-size: 2rem;
+    }
+
     /* При перевороте обратная сторона появляется */
     .services__item_inner.flipped .services__item_inner-back {
         opacity: 1;
@@ -127,5 +157,20 @@
         margin-top: 3vw;
         font-size: 2vw;
         color: var(--text-color);
+    }
+
+    /*Телефонная версия*/
+    @media only screen and (max-width: 600px) {
+        .services__item {
+            padding: 1rem 1rem 1rem 1rem;
+
+            width: 83vw;
+            min-height: 15rem;
+        }
+
+        .services__item_text {
+            font-size: 1.5rem;
+            text-align: center;
+        }
     }
 </style>

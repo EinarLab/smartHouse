@@ -655,7 +655,7 @@ main {
     padding: 3vw 3vw 3vw 2vw;
 
     width: 29vw;
-    height: 20vw;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -933,40 +933,38 @@ footer {
         display: none;
     }
 
-    .company__info {
-        margin-bottom: 10vw;
-    }
-
     .possibilities {
-        margin-bottom: 10vw;
-
         height: auto;
 
         display: flex;
         justify-content: center;
+        align-items: center;
 
-        border-radius: 1rem;
+        border: none;
+        box-shadow: none;
     }
 
     .possibilities__categories {
         width: 100%;
+        flex-direction: column;
         flex-wrap: wrap;
     }
 
     .possibilities__categories_item {
-        width: 10rem;
+        width: 100%;
         height: 3rem;
         font-size: 0.85rem;
     }
 
     .possibilities__description {
+        width: 91%;
         height: auto;
     }
 
     .possibilities__description_item {
         width: 100%;
 
-        border-radius: 1rem;
+        border-radius: 0px 0px 1rem 1rem;
     }
 
     .possibilities__description_item:last-child {
@@ -1011,20 +1009,25 @@ footer {
     }
 
     .services__item_container {
-        margin-bottom: 10vw;
+        width: 100%;
+        height: auto;
 
+        display: flex;
         flex-direction: column;
+
         gap: 10vw;
     }
 
-    .services__item {
-        padding: 1rem 1rem 1rem 1rem;
+    .services__item_content {
+        width: 100%;
+        height: auto;
 
-        width: 83vw;
-    }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-    .services__item_text {
-        font-size: 1.5rem;
+        gap: 10vw;
     }
 
     .projects__item_container {

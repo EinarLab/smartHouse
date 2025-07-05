@@ -50,25 +50,23 @@
         </h1>
     </section>
 
-    <section class="services__item_container">
-        <ServicesItem img={images[0]} text={texts[0]}></ServicesItem>
-        <ServicesItem img={images[1]} text={texts[1]}></ServicesItem>
-        <ServicesItem img={images[2]} text={texts[2]}></ServicesItem>
-    </section>
+    <section class="services__item_content">
+        <section class="services__item_container">
+            <ServicesItem img={images[0]} text={texts[0]}></ServicesItem>
+            <ServicesItem img={images[1]} text={texts[1]}></ServicesItem>
+            <ServicesItem img={images[2]} text={texts[2]}></ServicesItem>
+        </section>
 
-    <section class="services__item_container">
-        <ServicesItem img={images[3]} text={texts[3]}></ServicesItem>
+        <section class="services__item_container">
+            <ServicesItem img={images[3]} text={texts[3]}></ServicesItem>
+            <ServicesItem img={images[4]} text={texts[4]}></ServicesItem>
+            <ServicesItem img={images[5]} text={texts[5]}></ServicesItem>
+        </section>
 
-        <ServicesItem img={images[4]} text={texts[4]}></ServicesItem>
-
-        <ServicesItem img={images[5]} text={texts[5]}></ServicesItem>
-    </section>
-
-    <section class="services__item_container">
-        <ServicesItem img={images[6]} text={texts[6]}></ServicesItem>
-
-        <ServicesItem img={images[7]} text={texts[7]}></ServicesItem>
-
-        <ServicesItem img={images[8]} text={texts[8]}></ServicesItem>
+        <section class="services__item_container">
+            <ServicesItem img={images[6]} text={texts[6]}></ServicesItem>
+            <ServicesItem img={images[7]} text={texts[7]}></ServicesItem>
+            <ServicesItem img={images[8]} text={texts[8]}></ServicesItem>
+        </section>
     </section>
 </section>

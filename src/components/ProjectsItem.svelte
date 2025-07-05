@@ -5,12 +5,12 @@
     export let projectLink = "";
 </script>
 
-<a href="{projectLink}" target="_blank" class="project__item">
+<a href={projectLink} target="_blank" class="project__item">
     <div class="project__item_logo-wrapper">
-        <img class="project__item_logo" src="{projectLogo}" alt="image">
+        <img class="project__item_logo" src={projectLogo} alt="image" />
     </div>
     <p class="project__item_number">{projectNumber}</p>
-    <p class="project__item_name">{projectItemName}</p> 
+    <p class="project__item_name">{projectItemName}</p>
 </a>
 
 <style>
@@ -27,7 +27,7 @@
         text-align: center;
         color: var(--text-color);
         font-size: 3vw;
-        transition: .5s;
+        transition: 0.5s;
         overflow: hidden;
     }
 
@@ -39,7 +39,8 @@
     .project__item_logo-wrapper {
         display: none;
         position: absolute;
-        top: 0; left: 0;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
         z-index: 1;
@@ -75,9 +76,12 @@
     }
 
     .project__item_logo-wrapper::before {
-        content: '';
+        content: "";
         position: absolute;
-        top: 0; left: 0; right: 0; bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         border-radius: 20px;
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
@@ -103,9 +107,7 @@
         text-shadow: 0 2px 8px #000;
     }
 
-
-    @media only screen and (max-width: 600px) { 
-
+    @media only screen and (max-width: 600px) {
         .project__item {
             width: 83vw;
         }
@@ -123,16 +125,8 @@
         }
 
         .project__item_logo-wrapper::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            border-radius: 20px;
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
-            background: rgba(0, 0, 0, 0.3);
-            opacity: 1;
-            transition: opacity 0.3s ease;
-            z-index: 2;
+            content: none;
+            display: none;
             pointer-events: none;
         }
 
@@ -140,8 +134,6 @@
             display: block;
 
             font-size: 1.5rem;
-        } 
+        }
     }
-
-
 </style>
