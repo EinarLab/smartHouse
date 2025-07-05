@@ -1059,7 +1059,7 @@ footer {
     .feedback__item {
         padding: 1rem 1rem 1rem 1rem;
 
-        width: 27rem;
+        width: 24rem;
         height: auto;
     }
 
@@ -1096,7 +1096,7 @@ footer {
     .feedback__item_second {
         padding: 1rem 1rem 1rem 1rem;
 
-        width: 27rem;
+        width: 24rem;
         height: auto;
 
         display: flex;
