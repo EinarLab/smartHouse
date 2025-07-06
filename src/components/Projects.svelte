@@ -21,18 +21,16 @@
         project1Bg,
         project2Bg,
         project3Bg,
-        project4Bg,
         project5Bg,
         project6Bg
     ]
 
     const projectNames = [
-        "БДБ.03.КФ-05.2025-ЭОM-КАФЕ",
-        "БДБ.05.ЧД-05.2025-ЭОM-ИЖС",
-        "БДБ.15.ЧД-06.2025-ЭОM-ИЖС",
-        "БДБ.15.ЧД-06.2025-ЭОM",
-        "БДБ.20.КВ-06.2025-ЭОM-квартира",
-        "БДБ.23.ЧД-06.2025-ЭОM-ИЖС"
+        "Силовое электрооборудование и внутреннее электрическое освещение кафе",
+        "Силовое электрооборудование и внутреннее электрическое освещение частного дома, 188 м2",
+        "Силовое электрооборудование и внутреннее электрическое освещение частного дома 143 м2",
+        "Силовое электрооборудование и внутреннее электрическое освещение квартиры",
+        "Силовое электрооборудование и внутреннее электрическое освещение квартиры 150 м2"
     ]
 
     const projects = [
@@ -40,8 +38,7 @@
         project2,
         project3,
         project4,
-        project5,
-        project6
+        project5
     ]
 
 </script>
@@ -83,7 +80,7 @@
         projectLogo={projects__logo[3]}
         projectItemName={projectNames[3]}
         projectLink={projects[3]}
-        >
+    >
     </ProjectsItem>
 
     <ProjectsItem 
@@ -91,14 +88,6 @@
         projectLogo={projects__logo[4]}
         projectItemName={projectNames[4]}
         projectLink={projects[4]}
-    >
-    </ProjectsItem>
-
-    <ProjectsItem 
-        projectNumber={"6"}
-        projectLogo={projects__logo[5]}
-        projectItemName={projectNames[5]}
-        projectLink={projects[5]}
     >
     </ProjectsItem>
 </section>
