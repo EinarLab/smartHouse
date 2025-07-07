@@ -363,6 +363,14 @@ main {
     transition: 0.2s;
 }
 
+.possibilities__categories_item-header {
+    display: inline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 .possibilities__categories_item:first-child {
     background-color: var(--secondary-color);
 }
@@ -628,14 +636,22 @@ main {
 }
 
 .feedback__item_header {
-    margin-bottom: 2vw;
-
-    font-size: 2vw;
+    font-size: 2rem;
     color: var(--text-color);
 }
 
+.feedback__item_type {
+    font-size: 1rem;
+    margin-bottom: 1vw;
+}
+
+.feedback__item_type-text {
+    font-weight: bold;
+    color: darkred;
+}
+
 .feedback__item_text {
-    font-size: 1.25vw;
+    font-size: 1.25rem;
     text-align: left;
 
     color: var(--text-color);

@@ -2,10 +2,9 @@
     import { onMount } from "svelte";
     import Page from "../routes/+page.svelte";
 
-    export let img;
-    export let text;
-
-    const test = ["1", "2", "3"];
+    export let img = "";
+    export let text = "";
+    export let servicesItemOptions = [];
 
     let flipped = false;
 
@@ -25,7 +24,7 @@
                 <h3 class="services__item_inner-back--header">
                     Что входит в услугу:
                 </h3>
-                {#each test as item}
+                {#each servicesItemOptions as item}
                     <li class="services__item_inner-back--container">
                         <p class="services__item_inner-back--container_text">
                             {item}
@@ -139,7 +138,15 @@
     }
 
     .services__item_inner-back--header {
+        margin-bottom: 2rem;
+
+        text-align: center;
         font-size: 2rem;
+    }
+
+    .services__item_inner-back--container_text {
+        text-align: justify;
+        font-size: 1rem;
     }
 
     /* При перевороте обратная сторона появляется */
