@@ -1178,7 +1178,7 @@ footer {
     }
 
     .footer__company_name {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 
     .footer__logo {
@@ -1191,11 +1191,12 @@ footer {
     }
 
     .footer__img {
-        width: 6vw;
-        height: 6vw;
+        width: 2rem;
+        height: 2rem;
     }
 
     .footer__phone {
-        font-size: 0.6rem;
+        white-space: nowrap;
+        font-size: 0.5rem;
     }
 }

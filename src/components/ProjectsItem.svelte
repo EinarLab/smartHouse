@@ -151,6 +151,7 @@
         }
 
         .project__item_name {
+            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
             display: block;
 
             font-size: 1.5rem;

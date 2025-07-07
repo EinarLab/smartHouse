@@ -22,10 +22,7 @@
         >
             <img class="footer__img" src={footerImgWhatsApp} alt="image" />
         </a>
-        <a
-            class="footer__img_container"
-            href="https://web.telegram.org/k/#@Bondarev45"
-        >
+        <a class="footer__img_container" href="https://t.me/@Bondarev45">
             <img class="footer__img" src={footerImgTelegram} alt="image" /></a
         >
     </div>
