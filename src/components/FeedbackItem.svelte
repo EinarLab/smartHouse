@@ -16,9 +16,7 @@
         {feedbackText}
     </p>
 
-    <hr
-        style="margin-top: 1vw; width: 100%; height: .05vw; background-color: var(--text-color);"
-    />
+    <hr class="feedback__item_text-line" />
 
     <p class="feedback__data">
         <span>{feedbackDate}.</span> Отзыв взят с

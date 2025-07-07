@@ -142,6 +142,7 @@
 
         text-align: center;
         font-size: 2rem;
+        font-weight: bold;
     }
 
     .services__item_inner-back--container_text {
@@ -178,6 +179,19 @@
         .services__item_text {
             font-size: 1.5rem;
             text-align: center;
+        }
+
+        .services__item_inner-back--header {
+            margin-bottom: 0px;
+
+            text-align: center;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .services__item_inner-back--container_text {
+            text-align: justify;
+            font-size: 0.75rem;
         }
     }
 </style>
