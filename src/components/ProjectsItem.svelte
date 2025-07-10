@@ -14,6 +14,7 @@
 </a>
 
 <style>
+
     .project__item {
         width: 30vw;
         height: 40vw;
@@ -22,7 +23,6 @@
         align-items: center;
         position: relative;
         background-color: var(--secondary-color);
-        border-radius: 20px;
         box-shadow: 0px 0px 5px 0px var(--accent-color);
         text-align: center;
         color: var(--text-color);
@@ -32,8 +32,9 @@
     }
 
     .project__item:hover {
-        cursor: pointer;
         width: 100vw;
+        
+        cursor: pointer;
     }
 
     .project__item_logo-wrapper {
@@ -44,9 +45,9 @@
         width: 100%;
         height: 100%;
         z-index: 1;
-        border-radius: 20px;
         overflow: hidden;
     }
+
 
     .project__item_logo {
         width: 100%;
@@ -82,7 +83,6 @@
         left: 0;
         right: 0;
         bottom: 0;
-        border-radius: 20px;
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
         background: rgba(0, 0, 0, 0.3);
@@ -109,6 +109,7 @@
 
     @media only screen and (max-width: 600px) {
         .project__item {
+            border-radius: 20px;
             width: 83vw;
         }
 

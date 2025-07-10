@@ -30,6 +30,6 @@
 
 <style>
     .feedback__data_link {
-        color: rgb(224, 25, 53);
+        color: var(--accent-color);
     }
 </style>
