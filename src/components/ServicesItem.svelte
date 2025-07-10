@@ -143,11 +143,15 @@
         text-align: center;
         font-size: 1.75vw;
         font-weight: bold;
+
+        color: var(--text-color);
     }
 
     .services__item_inner-back--container_text {
         text-align: center;
         font-size: .75vw;
+
+        color: var(--text-color);
     }
 
     /* При перевороте обратная сторона появляется */
@@ -187,11 +191,15 @@
             text-align: center;
             font-size: 1rem;
             font-weight: bold;
+
+            color: var(--text-color);
         }
 
         .services__item_inner-back--container_text {
             text-align: center;
             font-size: 0.75rem;
+
+            color: var(--text-color);
         }
     }
 </style>

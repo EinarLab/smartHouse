@@ -137,7 +137,7 @@ nav {
 }
 
 .logo:hover {
-    box-shadow: 0px 0px 20px 10px var(--accent-color);
+    box-shadow: 0px 0px 1vw .3vw var(--accent-color);
 
     cursor: pointer;
 }
@@ -641,8 +641,11 @@ main {
 }
 
 .feedback__item_type {
-    font-size: .75vw;
     margin-bottom: 1vw;
+
+    font-size: .75vw;
+
+    color: var(--text-color);
 }
 
 .feedback__item_type-text {
@@ -754,20 +757,17 @@ main {
     font-size: 1.75vw;
 }
 
-.user__input {
-    padding-left: 1vw;
+.user__input_img {
+    width: 5vw;
+    height: 5vw;
 
-    width: 30vw;
-    height: 4.688vw;
+    border: 2px solid var(--accent-color);
+    border-radius: 50%;
 
-    border: 1px solid var(--accent-color);
-    border-radius: 20px;
-
-    font-size: 1.25vw;
-
-    transition: 0.2s;
+    transition: .2s;
 }
-.user__input:focus {
+
+.user__input_img:hover {
     box-shadow: 0px 0px 10px 5px var(--accent-color);
 }
 
@@ -839,7 +839,7 @@ footer {
 }
 
 .footer__logo:hover {
-    box-shadow: 0px 0px 15px 10px var(--accent-color);
+    box-shadow: 0px 0px 1vw .3vw var(--accent-color);
 
     cursor: pointer;
 }
@@ -861,16 +861,6 @@ footer {
 .footer__img_container {
     width: 10%;
     height: auto;
-}
-
-.footer__img {
-    width: 4.688vw;
-    height: 4.688vw;
-
-    border: 2px solid var(--accent-color);
-    border-radius: 50%;
-
-    transition: 0.2s;
 }
 
 .footer__img:hover {
@@ -1155,21 +1145,23 @@ footer {
         margin-bottom: 0px;
     }
 
-    .contacts__feedback {
-    }
-
     .user__input_label {
         margin-bottom: 1rem;
 
         font-size: 1rem;
     }
 
-    .user__input {
-        padding-left: 1rem;
+    .user__input_img-container {
+        width: 100%;
+        height: auto;
+    }
+    
+    .user__input_img {
+        width: 11vw;
+        height: 11vw;
 
-        width: 10rem;
-        height: 2.5rem;
-        font-size: 0.75rem;
+        border: 2px solid var(--accent-color);
+        border-radius: 50%;
     }
 
     .contacts__feedback_button {
@@ -1187,25 +1179,20 @@ footer {
     }
 
     .footer__company_name {
-        font-size: 0.5rem;
+        font-size: 1.75vw;
     }
 
     .footer__logo {
-        width: 3rem;
-        height: 3rem;
+        width: 8vw;
+        height: 8vw;
     }
 
     .footer__container_center {
         gap: 5vw;
     }
 
-    .footer__img {
-        width: 2rem;
-        height: 2rem;
-    }
-
     .footer__phone {
         white-space: nowrap;
-        font-size: 0.5rem;
+        font-size: 1.75vw;
     }
 }
