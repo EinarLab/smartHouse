@@ -16,9 +16,6 @@ export function initIntersectionObserver() {
       if (entry.isIntersecting) {
         entry.target.classList.add('animate__animated', 'animate__fadeIn');
       } 
-    //   else {
-    //     entry.target.classList.remove('animate__animated', 'animate__fadeIn');
-    //   }
     });
   });
 
@@ -53,7 +50,6 @@ export function SwitchTheme() {
     }
 
     colorTheme = "dark";
-    alert("Вы разбили нашу лампочку");
     return colorTheme;
   }
   if (colorTheme == "dark") {
@@ -71,26 +67,6 @@ export function SwitchTheme() {
 
     colorTheme = "white";
 
-    alert("Мы заменили лампочку на новую");
     return colorTheme;
   }
-}
-
-export async function SendMessage(event) {
-    const name = document.getElementById("user__name").value;
-    const contact = document.getElementById("user__contact").value;
-
-    const response = await fetch('http://localhost:3000/api/send-message', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ name, contact })
-    });
-
-    if (response.ok) {
-      alert('Сообщение успешно отправлено!');
-    } else {
-      alert('Произошла ошибка при отправке сообщения.');
-    }
 }

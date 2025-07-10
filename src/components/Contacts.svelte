@@ -1,5 +1,4 @@
 <script>
-    import { SendMessage }    from "$lib/js/main.js";
     import footerImgWhatsApp from "$lib/svg/whatsapp.svg";
     import footerImgTelegram from "$lib/svg/telegram.svg";
 </script>
@@ -15,7 +14,7 @@
     </h1>
     </section>
 
-    <form class="contacts__feedback" on:submit={SendMessage}>
+    <form class="contacts__feedback">
         <div class="contacts__feedback_input">
             <label class="user__input_label animated" for="user__name">Whatsapp</label>
             <a class="user__input_img-container" href="https://api.whatsapp.com/send?phone=79251321623&text=Добрый день! Давайте обсудим мой заказ">

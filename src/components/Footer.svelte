@@ -1,8 +1,6 @@
 <script>
     import { SwitchTheme } from "$lib/js/main.js";
     import logo from "$lib/img/lightbulb.jpg";
-    import footerImgWhatsApp from "$lib/svg/whatsapp.svg";
-    import footerImgTelegram from "$lib/svg/telegram.svg";
 </script>
 
 <footer class="animated">

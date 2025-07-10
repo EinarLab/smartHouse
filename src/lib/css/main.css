@@ -914,8 +914,8 @@ footer {
     }
 
     .logo {
-        width: 3rem;
-        height: 3rem;
+        width: 8vw;
+        height: 8vw;
     }
 
     .company__name {
@@ -1193,6 +1193,6 @@ footer {
 
     .footer__phone {
         white-space: nowrap;
-        font-size: 1.75vw;
+        font-size: 2vw;
     }
 }
