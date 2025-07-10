@@ -141,13 +141,13 @@
         margin-bottom: 2rem;
 
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.75vw;
         font-weight: bold;
     }
 
     .services__item_inner-back--container_text {
-        text-align: justify;
-        font-size: 1rem;
+        text-align: center;
+        font-size: .75vw;
     }
 
     /* При перевороте обратная сторона появляется */
@@ -190,7 +190,7 @@
         }
 
         .services__item_inner-back--container_text {
-            text-align: justify;
+            text-align: center;
             font-size: 0.75rem;
         }
     }

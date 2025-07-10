@@ -1,5 +1,7 @@
 <script>
-      import { SendMessage }    from "$lib/js/main.js";
+    import { SendMessage }    from "$lib/js/main.js";
+    import footerImgWhatsApp from "$lib/svg/whatsapp.svg";
+    import footerImgTelegram from "$lib/svg/telegram.svg";
 </script>
 
 <section class="contacts">
@@ -14,17 +16,19 @@
     </section>
 
     <form class="contacts__feedback" on:submit={SendMessage}>
-    
-    <div class="contacts__feedback_input">
-        <label class="user__input_label animated" for="user__name">Как к Вам обращаться?</label>
-        <input id="user__name" class="user__input animated" type="text" placeholder="Иванов Иван Иванович">
-    </div>
-    <div class="contacts__feedback_input">
-        <label class="user__input_label animated" for="user__contact">Как с Вами связаться?</label>
-        <input id="user__contact" class="user__input animated" type="text" placeholder="test@mail.ru">
-    </div>
-    <button type="submit" class="contacts__feedback_button animated">✓</button>
-    
+        <div class="contacts__feedback_input">
+            <label class="user__input_label animated" for="user__name">Whatsapp</label>
+            <a class="user__input_img-container" href="https://api.whatsapp.com/send?phone=79251321623&text=Добрый день! Давайте обсудим мой заказ">
+                <img class="footer__img" src={footerImgWhatsApp} alt="image" /></a
+            >
+        </div>
+
+        <div class="contacts__feedback_input">
+            <label class="user__input_label animated" for="user__contact">Telegram</label>
+            <a class="user__input_img-container" href="https://web.telegram.org/k/#@Bondarev45">
+                <img class="footer__img" src={footerImgTelegram} alt="image" /></a
+            >
+        </div>
     </form>
 
 </section>
