@@ -1,10 +1,10 @@
 <script>
     import DesignItem from "./DesignItem.svelte";
 
-    import bgs from "$lib/img/projects-background/1.jpg";
+    import DesignItemBg1 from "$lib/img/design/Дизайн-проект_квартиры.jpg";
 
     const designBgs = [
-        bgs
+        DesignItemBg1
     ]
 
     const designTexts = [
@@ -29,6 +29,7 @@
 
     <section class="design__item_container">
         <DesignItem 
+            designItemBg={designBgs[0]}
             designItemText={designTexts[0]}
             designItemProject={designProjects[0]}
         >
