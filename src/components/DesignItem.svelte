@@ -43,7 +43,7 @@
     @media only screen and (max-width: 600px) {
         .design__item {
             width: 83vw;
-            min-height: 10vh;
+            min-height: 25vh;
 
             font-size: 1rem;
             line-height: 5vw;
