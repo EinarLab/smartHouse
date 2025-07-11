@@ -13,24 +13,22 @@
     import project1 from "$lib/projects/БДБ.03.КФ-05.2025-ЭОM-КАФЕ.pdf";
     import project2 from "$lib/projects/БДБ.05.ЧД-05.2025-ЭОM-ИЖС.pdf";
     import project3 from "$lib/projects/БДБ.15.ЧД-06.2025-ЭОM-ИЖС.pdf";
-    import project4 from "$lib/projects/БДБ.15.ЧД-06.2025-ЭОM.pdf";
-    import project5 from "$lib/projects/БДБ.20.КВ-06.2025-ЭОM-квартира.pdf";
-    import project6 from "$lib/projects/БДБ.23.ЧД-06.2025-ЭОM-ИЖС.pdf";
+    import project4 from "$lib/projects/БДБ.20.КВ-06.2025-ЭОM-квартира.pdf";
+    import project5 from "$lib/projects/БДБ.23.ЧД-06.2025-ЭОM-ИЖС.pdf";
 
     const projects__logo = [
         project1Bg,
         project2Bg,
         project3Bg,
+        project4Bg,
         project5Bg,
-        project6Bg
     ]
 
     const projectNames = [
         "Силовое электрооборудование и внутреннее электрическое освещение кафе",
-        "Силовое электрооборудование и внутреннее электрическое освещение частного дома, 188 м2",
-        "Силовое электрооборудование и внутреннее электрическое освещение частного дома 143 м2",
-        "Силовое электрооборудование и внутреннее электрическое освещение квартиры",
-        "Силовое электрооборудование и внутреннее электрическое освещение квартиры 150 м2"
+        "Силовое электрооборудование и внутреннее электрическое освещение частного дома, 188м²",
+        "Силовое электрооборудование и внутреннее электрическое освещение частного дома 143м²",
+        "Силовое электрооборудование и внутреннее электрическое освещение квартиры 50м²"
     ]
 
     const projects = [
@@ -80,14 +78,6 @@
         projectLogo={projects__logo[3]}
         projectItemName={projectNames[3]}
         projectLink={projects[3]}
-    >
-    </ProjectsItem>
-
-    <ProjectsItem 
-        projectNumber={"5"}
-        projectLogo={projects__logo[4]}
-        projectItemName={projectNames[4]}
-        projectLink={projects[4]}
     >
     </ProjectsItem>
 </section>

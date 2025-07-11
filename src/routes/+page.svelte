@@ -12,6 +12,7 @@
     import Categories from "../components/Categories.svelte";
     import Services from "../components/Services.svelte";
     import Projects from "../components/Projects.svelte";
+    import Design from "../components/Design.svelte";
     import Feedback from "../components/Feedback.svelte";
     import Contacts from "../components/Contacts.svelte";
     import CompanyInfo from "../components/CompanyInfo.svelte";
@@ -47,6 +48,7 @@
         <Categories></Categories>
         <Services></Services>
         <Projects></Projects>
+        <Design></Design>
         <Feedback></Feedback>
         <Contacts></Contacts>
     </main>
