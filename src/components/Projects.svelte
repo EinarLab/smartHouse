@@ -8,7 +8,6 @@
     import project3Bg from "$lib/img/projects-background/БДБ.15.ЧД-06.2025-ЭОM-ИЖС.jpg";
     import project4Bg from "$lib/img/projects-background/БДБ.15.ЧД-06.2025-ЭОM.jpg";
     import project5Bg from "$lib/img/projects-background/БДБ.20.КВ-06.2025-ЭОM-квартира.jpg";
-    import project6Bg from "$lib/img/projects-background/БДБ.23.ЧД-06.2025-ЭОM-ИЖС.jpg";
 
     import project1 from "$lib/projects/БДБ.03.КФ-05.2025-ЭОM-КАФЕ.pdf";
     import project2 from "$lib/projects/БДБ.05.ЧД-05.2025-ЭОM-ИЖС.pdf";
@@ -47,7 +46,7 @@
     </section>
 
 
-<section class="projects__item_container">
+<section class="projects__item_container animated">
 
     <ProjectsItem 
         projectNumber={"1"}

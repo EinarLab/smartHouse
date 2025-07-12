@@ -66,18 +66,21 @@
     }
 
     .project__item_name {
-        display: none;
+        display: block;
+        opacity: 0;
         color: #fff;
         z-index: 2;
-        position: relative;
-
-        font-size: 3vw;
-        max-width: 30vw; 
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 50vw;
+        max-width: 90%;
+        white-space: wrap;
         overflow: hidden;
-        transition: none;
-        white-space: normal;
-        color: #fff;
-        z-index: 2;
+        font-size: 3vw;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
     }
 
     .project__item_number {
@@ -115,83 +118,83 @@
 
 
     .project__item:hover .project__item_name {
-        display: block;
-        z-index: 3;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        width: 90%;
-        text-shadow: 0 2px 8px #000;
+        opacity: 1;
+        pointer-events: auto;
     }
 
-
     @media only screen and (max-width: 600px) {
-        .project__item {
-            border-radius: 20px;
-            width: 83vw;
-        }
+@media only screen and (max-width: 600px) {
+    .project__item {
+        border-radius: 20px;
+        width: 83vw;
+    }
 
-        .project__item:first-child {
-            border-radius: 20px;
-        }
+    .project__item:first-child,
+    .project__item:last-child {
+        border-radius: 20px;
+    }
 
-        .project__item:last-child {
-            border-radius: 20px;
-        }
+    .project__item:hover {
+        width: 83vw;
+        pointer-events: auto;
+    }
 
-        .project__item:hover {
-            width: 83vw;
-            pointer-events: auto;
-        }
+    .project__item:hover .project__item_number {
+        pointer-events: none;
+    }
 
-        .project__item:hover .project__item_number {
-            pointer-events: none;
-        }
+    .project__item:hover .project__item_logo-wrapper {
+        pointer-events: none;
+    }
 
-        .project__item:hover .project__item_logo-wrapper {
-            pointer-events: none;
-        }
+    .project__item_number {
+        display: none;
+    }
 
-        .project__item_number {
-            display: none;
-        }
+    .project__item_logo-wrapper {
+        display: block;
+    }
 
-        .project__item_logo-wrapper {
-            display: block;
-        }
+    .project__item_logo-wrapper::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        background: rgba(0, 0, 0, 0.3);
+        opacity: 1;
+        transition: opacity 0.3s ease;
+        z-index: 2;
+        pointer-events: none;
+    }
 
-        .project__item_logo-wrapper::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            border-radius: 20px;
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
-            background: rgba(0, 0, 0, 0.3);
-            opacity: 1;
-            transition: opacity 0.3s ease;
-            z-index: 2;
-            pointer-events: none;
-        }
+    .project__item_name {
+        padding: 0.5rem;
+        display: block;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        position: relative !important;
+        width: 100%;
+        font-size: 1.5rem;
+        white-space: normal;
+        overflow: visible;
+        transform: none !important;
+        left: auto !important;
+        top: auto !important;
+    }
 
-        .project__item_name {
-            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-            display: block;
+    .project__item:hover .project__item_logo-wrapper::before {
+        pointer-events: none;
+    }
 
-            max-width: 100%;
-            font-size: 1.5rem;
-        }
+    .project__item:hover .project__item_name {
+        pointer-events: none;
+    }
+}
 
-        .project__item:hover .project__item_logo-wrapper::before {
-            pointer-events: none;
-        }
-
-        .project__item:hover .project__item_name {
-            pointer-events: none;
-        }
     }
 </style>

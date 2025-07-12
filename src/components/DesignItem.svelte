@@ -7,7 +7,7 @@
 <a
     href={designItemProject}
     target="_blank"
-    class="design__item"
+    class="design__item animated"
     style="
         background: url('{designItemBg}');
         background-size: cover;
@@ -30,7 +30,7 @@
         text-transform: uppercase;
         line-height: 2vw;
         border-radius: 20px;
-        box-shadow: 0px 0px 5px 0px var(--accent-color);
+        box-shadow: 0px 0px 10px 0px var(--accent-color);
         background-color: var(--secondary-color);
         transition: 0.2s;
     }
@@ -43,21 +43,21 @@
         right: 0;
         bottom: 0;
         border-radius: 20px;
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        background: var(--secondary-color);
-        opacity: 0.85;
+        background-color: rgba(80, 85, 87, 0.4);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         transition: opacity 0.3s ease;
         z-index: 1;
         pointer-events: none;
     }
+
 
     .design__item::after {
         content: var(--design-item-text);
         position: absolute;
 
         text-align: center;
-        color: var(--text-color);
+        color: #fff;
         z-index: 2;
     }
 
@@ -68,14 +68,22 @@
     @media only screen and (max-width: 600px) {
         .design__item {
             width: 83vw;
-            min-height: 25vh;
+            min-height: 45vw;
 
-            font-size: 1rem;
+            font-size: 1.25rem;
             line-height: 5vw;
         }
 
         .design__item:hover {
             pointer-events: none;
+        }
+
+        .design__item::after {
+            content: var(--design-item-text);
+            position: absolute;
+
+            text-align: center;
+            z-index: 2;
         }
     }
 </style>

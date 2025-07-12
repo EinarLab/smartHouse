@@ -51,7 +51,7 @@
     </section>
 
     <section class="services__item_content">
-        <section class="services__item_container">
+        <section class="services__item_container animated">
             <ServicesItem
                 img={images[0]}
                 text={texts[0]}
@@ -87,7 +87,7 @@
             ></ServicesItem>
         </section>
 
-        <section class="services__item_container">
+        <section class="services__item_container animated">
             <ServicesItem
                 img={images[3]}
                 text={texts[3]}
@@ -123,7 +123,7 @@
             ></ServicesItem>
         </section>
 
-        <section class="services__item_container">
+        <section class="services__item_container animated">
             <ServicesItem
                 img={images[6]}
                 text={texts[6]}

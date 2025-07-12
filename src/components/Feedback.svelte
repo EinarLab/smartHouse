@@ -4,7 +4,7 @@
 </script>
 
 <section class="feedback">
-    <h1 id="heading6" class="section__title services__section_title animated">
+    <h1 id="heading6" class="section__title animated">
         Отзывы
     </h1>
 

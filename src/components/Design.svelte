@@ -68,7 +68,6 @@
 <style>
     .design {
         margin-bottom: 5vw;
-
         padding-top: 1vw;
         padding-bottom: 1vw;
         padding-left: 4vw;

@@ -44,7 +44,6 @@
     <main>
         <CompanyInfo></CompanyInfo>
         <Possibilities></Possibilities>
-
         <Categories></Categories>
         <Services></Services>
         <Projects></Projects>
