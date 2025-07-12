@@ -3,7 +3,7 @@
 
     import test from "$lib/projects/test.pdf";
 
-    import project1Bg from "$lib/img/projects-background/БДБ.03.КФ-05.2025-ЭОM-КАФЕ.gif";
+    import project1Bg from "$lib/img/projects-background/БДБ.03.КФ-05.2025-ЭОM-КАФЕ.jpg";
     import project2Bg from "$lib/img/projects-background/БДБ.05.ЧД-05.2025-ЭОM-ИЖС.jpg";
     import project3Bg from "$lib/img/projects-background/БДБ.15.ЧД-06.2025-ЭОM-ИЖС.jpg";
     import project4Bg from "$lib/img/projects-background/БДБ.15.ЧД-06.2025-ЭОM.jpg";
