@@ -28,7 +28,6 @@
         align-items: center;
         font-size: 1.25vw;
         text-transform: uppercase;
-        text-align: center;
         line-height: 2vw;
         border-radius: 20px;
         box-shadow: 0px 0px 5px 0px var(--accent-color);
@@ -47,7 +46,7 @@
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
         background: var(--secondary-color);
-        opacity: 0.9;
+        opacity: 0.85;
         transition: opacity 0.3s ease;
         z-index: 1;
         pointer-events: none;
@@ -56,17 +55,10 @@
     .design__item::after {
         content: var(--design-item-text);
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        opacity: 1;
-        transition: opacity 0.3s ease;
-        z-index: 2;
-        pointer-events: none;
-        width: auto;
-        height: auto;
+
+        text-align: center;
         color: var(--text-color);
-        white-space: nowrap;
+        z-index: 2;
     }
 
     .design__item:hover {
