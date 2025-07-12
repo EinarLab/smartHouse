@@ -814,7 +814,7 @@ footer {
     }
 
     .banner-left__item_container {
-        text-align: justify;
+        text-align: center;
     }
 
     .banner__title {
@@ -941,6 +941,8 @@ footer {
     }
 
     .feedback__item_container {
+        margin-bottom: 3vw;
+
         flex-direction: column;
 
         gap: 6vw;
@@ -954,6 +956,10 @@ footer {
 
         display: flex;
         gap: 1rem;
+    }
+
+    .feedback__item:nth-child(2) {
+        margin-bottom: 7vw;
     }
 
     .feedback__item_header {
@@ -1011,7 +1017,7 @@ footer {
     }
 
     .feedback__item_second:nth-child(2) {
-        margin-bottom: 0px;
+        margin-bottom: 7vw;
     }
 
     .feedback__item_second:nth-child(3) {
