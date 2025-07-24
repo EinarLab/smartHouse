@@ -51,7 +51,6 @@
         pointer-events: none;
     }
 
-
     .design__item::after {
         content: var(--design-item-text);
         position: absolute;
@@ -75,7 +74,7 @@
         }
 
         .design__item:hover {
-            pointer-events: none;
+            pointer-events: auto;
         }
 
         .design__item::after {
