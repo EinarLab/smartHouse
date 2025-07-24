@@ -10,6 +10,26 @@
     src: url("../fonts/electrical.ttf");
 }
 
+@font-face {
+    font-family: "Serif";
+    src: url("../fonts/serif.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div,
+span,
+ul,
+li {
+    font-family: "Serif";
+}
+
 body {
     overflow-x: hidden;
 }
